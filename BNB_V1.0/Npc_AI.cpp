@@ -2,10 +2,6 @@
 
 
 
-Npc_AI::Npc_AI()
-{
-}
-
 
 Npc_AI::~Npc_AI()
 {

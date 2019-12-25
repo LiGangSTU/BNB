@@ -4,7 +4,6 @@ class Npc_AI :
 	public T_AI
 {
 public:
-	Npc_AI();
 	~Npc_AI();
 };
 

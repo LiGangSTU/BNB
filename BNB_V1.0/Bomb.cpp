@@ -2,10 +2,6 @@
 
 
 
-Bomb::Bomb()
-{
-}
-
 
 Bomb::~Bomb()
 {

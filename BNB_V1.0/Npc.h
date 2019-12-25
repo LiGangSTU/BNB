@@ -4,7 +4,6 @@ class Npc :
 	public T_Sprite
 {
 public:
-	Npc();
 	~Npc();
 };
 

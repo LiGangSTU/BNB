@@ -2,9 +2,6 @@
 
 
 
-Explosion::Explosion()
-{
-}
 
 
 Explosion::~Explosion()

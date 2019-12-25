@@ -4,7 +4,6 @@ class Bomb :
 	public T_Sprite
 {
 public:
-	Bomb();
 	~Bomb();
 };
 
