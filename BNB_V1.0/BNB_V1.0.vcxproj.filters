@@ -54,31 +54,22 @@
     <ClCompile Include="AppMain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="GameMenu.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Npc.cpp">
+    <ClCompile Include="Player.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Bomb.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="GameMap.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="GameSound.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Detail.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="BNB_Player.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Explosion.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="Npc_AI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -119,34 +110,25 @@
     <ClInclude Include="GameEngine\T_Util.h">
       <Filter>GameEngine</Filter>
     </ClInclude>
-    <ClInclude Include="GameMenu.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="MyGame.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Npc.h">
+    <ClInclude Include="Player.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Bomb.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="GameMap.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="GameSound.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Detail.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="BNB_Player.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Explosion.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="Npc_AI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

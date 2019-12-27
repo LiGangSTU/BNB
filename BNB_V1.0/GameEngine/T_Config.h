@@ -19,10 +19,12 @@
 #include <vector>
 #include <algorithm>
 #include <math.h>
+
 using namespace std;
 #include <gdiplus.h>
 #pragma comment(lib,"Msimg32.lib")
 #pragma comment(lib,"gdiplus.lib")
+
 using namespace Gdiplus;
 
 

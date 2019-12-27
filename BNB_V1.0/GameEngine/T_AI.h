@@ -25,7 +25,7 @@ struct MoveCoord
 
 class T_AI
 {
-private:
+protected:
 	int dir_style;		// 方向模式，其值必须是4或8
 
 	// 躲避方向

@@ -1,21 +1,24 @@
 #pragma once
 #include ".\GameEngine\T_Sprite.h"
 #include "GameEngine/T_Scene.h"
-
-class Npc :
+#include "GameEngine/T_Config.h"
+class Player :
 	public T_Sprite
 {
+private:
+	// 加入一些本游戏中玩家特有的内容
+	
 public:
-	// NPC帧
+	// 玩家帧
 	static int FRAME_LEFT[20];
 	static int FRAME_RIGHT[20];
 	static int FRAME_UP[20];
 	static int FRAME_DOWN[20];
-	// 后期如果
-	Npc(wstring imgPath, int frameWidth = 0, int frameHeight = 0);
-	~Npc();
-	// 改变NPC位置
-	void updatePos(T_Sprite* player, T_Scene *t_scene,vector<Npc*> npc_set);
+	Player(wstring imgPath, int frameWidth = 0, int frameHeight = 0);
+	~Player();
+	
+	// 改变玩家位置
+	void updatePos(int dir, T_Scene *t_scene);
 	// 更新动画
 	void updateAnimation();
 };
