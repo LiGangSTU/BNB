@@ -2,8 +2,6 @@
 
 
 
-
-
 BNB_Player::~BNB_Player()
 {
 }
